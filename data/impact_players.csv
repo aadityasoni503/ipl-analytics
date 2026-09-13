@@ -1,0 +1,418 @@
+match_id,date,team,player_in,player_out,impact_over
+1359475,2023-03-31,Chennai Super Kings,TU Deshpande,AT Rayudu,0.1
+1359475,2023-03-31,Gujarat Titans,B Sai Sudharsan,KS Williamson,3.6
+1359476,2023-04-01,Punjab Kings,R Dhawan,PBB Rajapaksa,0.1
+1359476,2023-04-01,Kolkata Knight Riders,VR Iyer,CV Varun,2.1
+1359477,2023-04-01,Delhi Capitals,Aman Hakim Khan,KK Ahmed,19.1
+1359477,2023-04-01,Lucknow Super Giants,K Gowtham,A Badoni,19.6
+1359478,2023-04-02,Sunrisers Hyderabad,Abdul Samad,Fazalhaq Farooqi,9.4
+1359478,2023-04-02,Rajasthan Royals,NA Saini,YBK Jaiswal,11.1
+1359479,2023-04-02,Mumbai Indians,JP Behrendorff,SA Yadav,0.1
+1359480,2023-04-03,Lucknow Super Giants,A Badoni,Avesh Khan,19.1
+1359480,2023-04-03,Chennai Super Kings,TU Deshpande,AT Rayudu,0.1
+1359481,2023-04-04,Delhi Capitals,KK Ahmed,SN Khan,0.1
+1359481,2023-04-04,Gujarat Titans,V Shankar,J Little,6.1
+1359482,2023-04-05,Rajasthan Royals,Dhruv Jurel,YS Chahal,16.1
+1359482,2023-04-05,Punjab Kings,R Dhawan,P Simran Singh,15.1
+1359483,2023-04-06,Kolkata Knight Riders,Suyash Sharma,VR Iyer,0.1
+1359483,2023-04-06,Royal Challengers Bangalore,Anuj Rawat,Mohammed Siraj,11.4
+1359484,2023-04-07,Lucknow Super Giants,A Badoni,A Mishra,19.1
+1359484,2023-04-07,Sunrisers Hyderabad,Fazalhaq Farooqi,RA Tripathi,0.1
+1359485,2023-04-08,Delhi Capitals,PP Shaw,KK Ahmed,0.1
+1359485,2023-04-08,Rajasthan Royals,M Ashwin,JC Buttler,7.1
+1359486,2023-04-08,Mumbai Indians,K Kartikeya,TH David,6.1
+1359486,2023-04-08,Chennai Super Kings,AT Rayudu,DL Chahar,14.3
+1359487,2023-04-09,Gujarat Titans,J Little,B Sai Sudharsan,0.1
+1359487,2023-04-09,Kolkata Knight Riders,VR Iyer,Suyash Sharma,2.4
+1359488,2023-04-09,Punjab Kings,Sikandar Raza,P Simran Singh,8.6
+1359489,2023-04-10,Lucknow Super Giants,A Badoni,A Mishra,16.1
+1359489,2023-04-10,Royal Challengers Bangalore,KV Sharma,Anuj Rawat,0.1
+1359490,2023-04-11,Delhi Capitals,Mukesh Kumar,PP Shaw,0.1
+1359490,2023-04-11,Mumbai Indians,TH David,RP Meredith,16.1
+1359491,2023-04-12,Rajasthan Royals,A Zampa,JC Buttler,19.6
+1359491,2023-04-12,Chennai Super Kings,AT Rayudu,SSB Magala,13.6
+1359492,2023-04-13,Punjab Kings,RD Chahar,PBB Rajapaksa,0.1
+1359493,2023-04-14,Sunrisers Hyderabad,Washington Sundar,HC Brook,0.1
+1359493,2023-04-14,Kolkata Knight Riders,VR Iyer,Suyash Sharma,0.4
+1359494,2023-04-15,Royal Challengers Bangalore,Anuj Rawat,MK Lomror,14.3
+1359494,2023-04-15,Delhi Capitals,PP Shaw,Mustafizur Rahman,0.1
+1359495,2023-04-15,Lucknow Super Giants,K Gowtham,KR Mayers,18.5
+1359495,2023-04-15,Punjab Kings,P Simran Singh,RD Chahar,0.1
+1359496,2023-04-16,Mumbai Indians,RG Sharma,RP Meredith,0.1
+1359496,2023-04-16,Kolkata Knight Riders,Suyash Sharma,VR Iyer,0.1
+1359497,2023-04-16,Rajasthan Royals,D Padikkal,YS Chahal,17.1
+1359497,2023-04-16,Gujarat Titans,Noor Ahmad,Shubman Gill,12.1
+1359498,2023-04-17,Chennai Super Kings,Akash Singh,AT Rayudu,0.1
+1359498,2023-04-17,Royal Challengers Bangalore,SS Prabhudessai,Mohammed Siraj,16.6
+1359499,2023-04-18,Mumbai Indians,RP Meredith,Tilak Varma,0.1
+1359499,2023-04-18,Sunrisers Hyderabad,Abdul Samad,T Natarajan,14.1
+1359500,2023-04-19,Rajasthan Royals,D Padikkal,YS Chahal,15.1
+1359500,2023-04-19,Lucknow Super Giants,A Mishra,KR Mayers,8.1
+1359501,2023-04-20,Punjab Kings,P Simran Singh,RD Chahar,0.1
+1359501,2023-04-20,Royal Challengers Bangalore,Vijaykumar Vyshak,F du Plessis,0.1
+1359502,2023-04-20,Delhi Capitals,PP Shaw,I Sharma,12.1
+1359502,2023-04-20,Kolkata Knight Riders,AS Roy,VR Iyer,14.5
+1359503,2023-04-21,Sunrisers Hyderabad,Mayank Dagar,RA Tripathi,0.1
+1359503,2023-04-21,Chennai Super Kings,AT Rayudu,Akash Singh,14.5
+1359504,2023-04-22,Lucknow Super Giants,PN Mankad,A Mishra,17.1
+1359504,2023-04-22,Gujarat Titans,J Yadav,Shubman Gill,0.1
+1359505,2023-04-22,Punjab Kings,NT Ellis,P Simran Singh,0.1
+1359505,2023-04-22,Mumbai Indians,N Wadhera,JP Behrendorff,19.4
+1359506,2023-04-23,Royal Challengers Bangalore,HV Patel,F du Plessis,0.1
+1359506,2023-04-23,Rajasthan Royals,Abdul Basith,D Padikkal,19.5
+1359507,2023-04-23,Chennai Super Kings,Akash Singh,AT Rayudu,0.1
+1359507,2023-04-23,Kolkata Knight Riders,VR Iyer,Suyash Sharma,0.5
+1359508,2023-04-24,Sunrisers Hyderabad,RA Tripathi,T Natarajan,19.1
+1359508,2023-04-24,Delhi Capitals,Mukesh Kumar,SN Khan,0.1
+1359509,2023-04-25,Gujarat Titans,J Little,Shubman Gill,0.1
+1359509,2023-04-25,Mumbai Indians,Tilak Varma,K Kartikeya,7.4
+1359510,2023-04-26,Royal Challengers Bangalore,F du Plessis,HV Patel,0.1
+1359510,2023-04-26,Kolkata Knight Riders,Suyash Sharma,JJ Roy,0.1
+1359511,2023-04-27,Rajasthan Royals,K Yadav,SO Hetmyer,0.1
+1359511,2023-04-27,Chennai Super Kings,AT Rayudu,Akash Singh,10.3
+1359512,2023-04-28,Punjab Kings,P Simran Singh,Gurnoor Brar,9.1
+1359512,2023-04-28,Lucknow Super Giants,A Mishra,KR Mayers,6.1
+1359513,2023-04-29,Gujarat Titans,Shubman Gill,MM Sharma,0.1
+1359513,2023-04-29,Kolkata Knight Riders,Suyash Sharma,VR Iyer,0.1
+1359514,2023-04-29,Delhi Capitals,SN Khan,I Sharma,19.1
+1359514,2023-04-29,Sunrisers Hyderabad,T Natarajan,RA Tripathi,0.1
+1359515,2023-04-30,Chennai Super Kings,Akash Singh,AT Rayudu,0.1
+1359515,2023-04-30,Punjab Kings,P Simran Singh,K Rabada,0.1
+1359516,2023-04-30,Rajasthan Royals,KR Sen,Dhruv Jurel,0.1
+1359517,2023-05-01,Lucknow Super Giants,A Badoni,Yash Thakur,0.1
+1359517,2023-05-01,Royal Challengers Bangalore,HV Patel,Anuj Rawat,10.1
+1359518,2023-05-02,Delhi Capitals,KK Ahmed,PK Garg,0.1
+1359518,2023-05-02,Gujarat Titans,Shubman Gill,MM Sharma,0.1
+1359519,2023-05-03,Chennai Super Kings,AT Rayudu,M Theekshana,17.5
+1359520,2023-05-03,Punjab Kings,NT Ellis,P Simran Singh,0.1
+1359520,2023-05-03,Mumbai Indians,SA Yadav,Akash Madhwal,6.1
+1359521,2023-05-04,Kolkata Knight Riders,AS Roy,JJ Roy,17.4
+1359521,2023-05-04,Sunrisers Hyderabad,RA Tripathi,T Natarajan,2.6
+1359522,2023-05-05,Rajasthan Royals,R Parag,YBK Jaiswal,8.1
+1359522,2023-05-05,Gujarat Titans,Shubman Gill,MM Sharma,0.1
+1359523,2023-05-06,Chennai Super Kings,AT Rayudu,M Theekshana,16.1
+1359523,2023-05-06,Mumbai Indians,R Goyal,SA Yadav,0.1
+1359524,2023-05-06,Delhi Capitals,RV Patel,I Sharma,19.1
+1359524,2023-05-06,Royal Challengers Bangalore,HV Patel,KM Jadhav,8.1
+1359525,2023-05-07,Gujarat Titans,AS Joseph,Shubman Gill,0.1
+1359525,2023-05-07,Lucknow Super Giants,A Badoni,Yash Thakur,16.1
+1359526,2023-05-07,Sunrisers Hyderabad,Anmolpreet Singh,T Natarajan,0.1
+1359526,2023-05-07,Rajasthan Royals,OC McCoy,R Ashwin,13.1
+1359527,2023-05-08,Kolkata Knight Riders,JJ Roy,Suyash Sharma,0.1
+1359527,2023-05-08,Punjab Kings,NT Ellis,PBB Rajapaksa,0.1
+1359528,2023-05-09,Royal Challengers Bangalore,KM Jadhav,MK Lomror,14.1
+1359529,2023-05-10,Chennai Super Kings,M Pathirana,S Dube,0.1
+1359529,2023-05-10,Delhi Capitals,MK Pandey,KK Ahmed,2.4
+1359530,2023-05-11,Kolkata Knight Riders,Suyash Sharma,VR Iyer,0.1
+1359531,2023-05-12,Mumbai Indians,Akash Madhwal,Vishnu Vinod,0.1
+1359531,2023-05-12,Gujarat Titans,Shubman Gill,MM Sharma,0.1
+1359532,2023-05-13,Lucknow Super Giants,A Badoni,A Mishra,16.1
+1359532,2023-05-13,Sunrisers Hyderabad,Vivrant Sharma,Anmolpreet Singh,0.1
+1359533,2023-05-13,Punjab Kings,NT Ellis,P Simran Singh,0.1
+1359533,2023-05-13,Delhi Capitals,MK Pandey,KK Ahmed,9.1
+1359534,2023-05-14,Royal Challengers Bangalore,Shahbaz Ahmed,KD Karthik,0.1
+1359534,2023-05-14,Rajasthan Royals,D Padikkal,YS Chahal,1.5
+1359535,2023-05-14,Chennai Super Kings,M Pathirana,S Dube,0.1
+1359535,2023-05-14,Kolkata Knight Riders,VR Iyer,Suyash Sharma,1.1
+1359536,2023-05-15,Gujarat Titans,Yash Dayal,Shubman Gill,0.1
+1359536,2023-05-15,Sunrisers Hyderabad,Anmolpreet Singh,T Natarajan,19.3
+1359537,2023-05-16,Lucknow Super Giants,Yash Thakur,PN Mankad,1.1
+1359537,2023-05-16,Mumbai Indians,Vishnu Vinod,Akash Madhwal,16.2
+1359538,2023-05-17,Delhi Capitals,Mukesh Kumar,PP Shaw,0.1
+1359538,2023-05-17,Punjab Kings,P Simran Singh,NT Ellis,0.1
+1359539,2023-05-18,Sunrisers Hyderabad,T Natarajan,Abdul Samad,0.1
+1359540,2023-05-19,Punjab Kings,NT Ellis,P Simran Singh,0.1
+1359540,2023-05-19,Rajasthan Royals,Dhruv Jurel,YS Chahal,18.1
+1359541,2023-05-20,Chennai Super Kings,M Pathirana,S Dube,0.1
+1359541,2023-05-20,Delhi Capitals,PP Shaw,KK Ahmed,0.1
+1359542,2023-05-20,Kolkata Knight Riders,Suyash Sharma,Harshit Rana,11.1
+1359542,2023-05-20,Lucknow Super Giants,Yash Thakur,KS Sharma,0.1
+1359543,2023-05-21,Sunrisers Hyderabad,Kartik Tyagi,MA Agarwal,0.1
+1359544,2023-05-21,Royal Challengers Bangalore,H Sharma,KD Karthik,0.1
+1359544,2023-05-21,Gujarat Titans,V Shankar,Yash Dayal,3.1
+1370350,2023-05-23,Chennai Super Kings,M Pathirana,S Dube,0.1
+1370350,2023-05-23,Gujarat Titans,V Shankar,MM Sharma,0.1
+1370351,2023-05-24,Lucknow Super Giants,KR Mayers,Yash Thakur,0.1
+1370351,2023-05-24,Mumbai Indians,N Wadhera,SA Yadav,0.1
+1370352,2023-05-26,Gujarat Titans,J Little,Shubman Gill,0.1
+1370352,2023-05-26,Mumbai Indians,N Wadhera,Akash Madhwal,0.1
+1370353,2023-05-29,Gujarat Titans,J Little,B Sai Sudharsan,0.1
+1370353,2023-05-29,Chennai Super Kings,S Dube,M Pathirana,6.4
+1422119,2024-03-22,Royal Challengers Bengaluru,Yash Dayal,KD Karthik,0.1
+1422119,2024-03-22,Chennai Super Kings,S Dube,Mustafizur Rahman,10.3
+1422120,2024-03-23,Delhi Capitals,Abishek Porel,RK Bhui,17.2
+1422120,2024-03-23,Punjab Kings,P Simran Singh,Arshdeep Singh,19.1
+1422121,2024-03-23,Sunrisers Hyderabad,Abhishek Sharma,T Natarajan,0.1
+1422121,2024-03-23,Kolkata Knight Riders,Suyash Sharma,Ramandeep Singh,8.1
+1422122,2024-03-24,Rajasthan Royals,N Burger,SO Hetmyer,0.1
+1422122,2024-03-24,Lucknow Super Giants,DJ Hooda,Yash Thakur,3.2
+1422123,2024-03-24,Gujarat Titans,MM Sharma,B Sai Sudharsan,0.1
+1422123,2024-03-24,Mumbai Indians,D Brevis,L Wood,3.1
+1422124,2024-03-25,Punjab Kings,Arshdeep Singh,P Simran Singh,0.1
+1422124,2024-03-25,Royal Challengers Bengaluru,MK Lomror,Yash Dayal,16.3
+1422125,2024-03-26,Chennai Super Kings,M Pathirana,S Dube,0.1
+1422125,2024-03-26,Gujarat Titans,B Sai Sudharsan,MM Sharma,2.6
+1422126,2024-03-27,Sunrisers Hyderabad,Umran Malik,TM Head,0.1
+1422126,2024-03-27,Mumbai Indians,R Shepherd,KT Maphaka,18.1
+1422127,2024-03-28,Delhi Capitals,Abishek Porel,KK Ahmed,15.1
+1422127,2024-03-28,Rajasthan Royals,N Burger,SO Hetmyer,0.1
+1422128,2024-03-29,Kolkata Knight Riders,A Raghuvanshi,CV Varun,17.1
+1422128,2024-03-29,Royal Challengers Bengaluru,Vijaykumar Vyshak,KD Karthik,0.1
+1422129,2024-03-30,Lucknow Super Giants,Naveen-ul-Haq,KL Rahul,19.5
+1422129,2024-03-30,Punjab Kings,P Simran Singh,Arshdeep Singh,11.5
+1422130,2024-03-31,Sunrisers Hyderabad,Washington Sundar,MA Agarwal,19.3
+1422130,2024-03-31,Gujarat Titans,B Sai Sudharsan,MM Sharma,4.2
+1422131,2024-03-31,Delhi Capitals,Rasikh Salam,PP Shaw,6.1
+1422131,2024-03-31,Chennai Super Kings,S Dube,M Pathirana,10.3
+1422132,2024-04-01,Mumbai Indians,D Brevis,Naman Dhir,1.1
+1422132,2024-04-01,Rajasthan Royals,SB Dubey,YS Chahal,18.1
+1422133,2024-04-02,Lucknow Super Giants,M Siddharth,Q de Kock,0.1
+1422133,2024-04-02,Royal Challengers Bengaluru,MK Lomror,Yash Dayal,12.6
+1422134,2024-04-03,Delhi Capitals,Abishek Porel,KK Ahmed,18.1
+1422134,2024-04-03,Kolkata Knight Riders,VG Arora,A Raghuvanshi,0.1
+1422135,2024-04-04,Gujarat Titans,MM Sharma,R Tewatia,0.1
+1422135,2024-04-04,Punjab Kings,Ashutosh Sharma,Arshdeep Singh,15.4
+1422136,2024-04-05,Chennai Super Kings,Mukesh Choudhary,S Dube,0.1
+1422136,2024-04-05,Sunrisers Hyderabad,TM Head,T Natarajan,0.1
+1422137,2024-04-06,Rajasthan Royals,SB Dubey,YS Chahal,18.1
+1422137,2024-04-06,Royal Challengers Bengaluru,H Sharma,Saurav Chauhan,0.1
+1422138,2024-04-07,Delhi Capitals,Kumar Kushagra,KK Ahmed,17.1
+1422138,2024-04-07,Mumbai Indians,Akash Madhwal,SA Yadav,0.1
+1422139,2024-04-07,Lucknow Super Giants,M Siddharth,MP Stoinis,0.1
+1422139,2024-04-07,Gujarat Titans,KS Williamson,MM Sharma,6.1
+1426260,2024-04-08,Kolkata Knight Riders,AS Roy,RK Singh,18.3
+1426260,2024-04-08,Chennai Super Kings,S Dube,Mustafizur Rahman,12.4
+1426261,2024-04-09,Sunrisers Hyderabad,RA Tripathi,TM Head,5.1
+1426261,2024-04-09,Punjab Kings,P Simran Singh,Arshdeep Singh,1.5
+1426262,2024-04-10,Rajasthan Royals,KA Maharaj,YBK Jaiswal,0.1
+1426262,2024-04-10,Gujarat Titans,M Shahrukh Khan,MM Sharma,0.1
+1426263,2024-04-11,Royal Challengers Bengaluru,Saurav Chauhan,RM Patidar,16.6
+1426263,2024-04-11,Mumbai Indians,SA Yadav,Akash Madhwal,8.6
+1426264,2024-04-12,Lucknow Super Giants,DJ Hooda,Q de Kock,7.5
+1426264,2024-04-12,Delhi Capitals,Abishek Porel,KK Ahmed,18.1
+1426265,2024-04-13,Punjab Kings,Ashutosh Sharma,P Simran Singh,16.2
+1426265,2024-04-13,Rajasthan Royals,YBK Jaiswal,KR Sen,0.1
+1426266,2024-04-14,Kolkata Knight Riders,RK Singh,CV Varun,17.1
+1426266,2024-04-14,Lucknow Super Giants,Arshad Khan (2),Q de Kock,19.2
+1426267,2024-04-14,Chennai Super Kings,M Pathirana,AM Rahane,0.1
+1426267,2024-04-14,Mumbai Indians,SA Yadav,Akash Madhwal,7.2
+1426268,2024-04-15,Royal Challengers Bengaluru,Anuj Rawat,Yash Dayal,18.1
+1426268,2024-04-15,Sunrisers Hyderabad,M Markande,TM Head,0.1
+1426269,2024-04-16,Rajasthan Royals,JC Buttler,KR Sen,0.1
+1426269,2024-04-16,Kolkata Knight Riders,VG Arora,RK Singh,0.1
+1426270,2024-04-17,Gujarat Titans,M Shahrukh Khan,B Sai Sudharsan,8.4
+1426270,2024-04-17,Delhi Capitals,Abishek Porel,KK Ahmed,15.1
+1426271,2024-04-18,Mumbai Indians,Akash Madhwal,SA Yadav,0.1
+1426271,2024-04-18,Punjab Kings,Harpreet Singh,Arshdeep Singh,2.1
+1426272,2024-04-19,Chennai Super Kings,Sameer Rizvi,AM Rahane,11.2
+1426273,2024-04-20,Sunrisers Hyderabad,Washington Sundar,TM Head,19.5
+1426273,2024-04-20,Delhi Capitals,PP Shaw,KK Ahmed,0.1
+1426274,2024-04-21,Kolkata Knight Riders,Suyash Sharma,RK Singh,6.1
+1426274,2024-04-21,Royal Challengers Bengaluru,SS Prabhudessai,Yash Dayal,11.5
+1426275,2024-04-21,Punjab Kings,Harpreet Singh,P Simran Singh,13.6
+1426275,2024-04-21,Gujarat Titans,B Sai Sudharsan,S Sandeep Warrier,19.1
+1426276,2024-04-22,Mumbai Indians,N Thushara,SA Yadav,0.1
+1426276,2024-04-22,Rajasthan Royals,JC Buttler,YS Chahal,0.1
+1426277,2024-04-23,Chennai Super Kings,SN Thakur,AM Rahane,0.1
+1426277,2024-04-23,Lucknow Super Giants,D Padikkal,Yash Thakur,4.5
+1426278,2024-04-24,Delhi Capitals,Rasikh Salam,PP Shaw,0.1
+1426278,2024-04-24,Gujarat Titans,B Sai Sudharsan,S Sandeep Warrier,1.4
+1426279,2024-04-25,Royal Challengers Bengaluru,Swapnil Singh,RM Patidar,18.6
+1426279,2024-04-25,Sunrisers Hyderabad,TM Head,T Natarajan,0.1
+1426280,2024-04-26,Punjab Kings,P Simran Singh,Arshdeep Singh,0.1
+1426280,2024-04-26,Kolkata Knight Riders,AS Roy,VR Iyer,3.1
+1426281,2024-04-27,Mumbai Indians,SA Yadav,N Thushara,3.2
+1426281,2024-04-27,Delhi Capitals,Rasikh Salam,Kumar Kushagra,9.1
+1426282,2024-04-27,Rajasthan Royals,R Parag,YS Chahal,6.2
+1426282,2024-04-27,Lucknow Super Giants,A Mishra,Q de Kock,8.1
+1426283,2024-04-28,Gujarat Titans,S Sandeep Warrier,B Sai Sudharsan,0.1
+1426284,2024-04-28,Chennai Super Kings,SN Thakur,S Dube,0.1
+1426284,2024-04-28,Sunrisers Hyderabad,Anmolpreet Singh,T Natarajan,1.6
+1426285,2024-04-29,Delhi Capitals,Kumar Kushagra,PP Shaw,12.2
+1426285,2024-04-29,Kolkata Knight Riders,A Raghuvanshi,CV Varun,15.1
+1426286,2024-04-30,Mumbai Indians,N Thushara,SA Yadav,0.1
+1426286,2024-04-30,Lucknow Super Giants,AA Kulkarni,MP Yadav,0.1
+1426287,2024-05-01,Chennai Super Kings,Sameer Rizvi,AM Rahane,9.6
+1426287,2024-05-01,Punjab Kings,P Simran Singh,Arshdeep Singh,0.1
+1426288,2024-05-02,Rajasthan Royals,JC Buttler,YS Chahal,0.1
+1426288,2024-05-02,Sunrisers Hyderabad,JD Unadkat,Anmolpreet Singh,0.1
+1426289,2024-05-03,Mumbai Indians,RG Sharma,N Thushara,0.1
+1426289,2024-05-03,Kolkata Knight Riders,MK Pandey,A Raghuvanshi,6.2
+1426290,2024-05-04,Gujarat Titans,V Shankar,B Sai Sudharsan,17.4
+1426290,2024-05-04,Royal Challengers Bengaluru,RM Patidar,Yash Dayal,18.1
+1426291,2024-05-05,Punjab Kings,P Simran Singh,Arshdeep Singh,0.1
+1426291,2024-05-05,Chennai Super Kings,Simarjeet Singh,AM Rahane,0.1
+1426292,2024-05-05,Kolkata Knight Riders,VG Arora,A Raghuvanshi,0.1
+1426292,2024-05-05,Lucknow Super Giants,AA Kulkarni,Yash Thakur,0.1
+1426292,2024-05-05,Lucknow Super Giants,Yudhvir Singh,Mohsin Khan,15.1
+1426293,2024-05-06,Sunrisers Hyderabad,Sanvir Singh,Abhishek Sharma,17.1
+1426294,2024-05-07,Delhi Capitals,Rasikh Salam,Abishek Porel,18.5
+1426294,2024-05-07,Rajasthan Royals,JC Buttler,YS Chahal,0.1
+1426295,2024-05-08,Sunrisers Hyderabad,Abhishek Sharma,T Natarajan,19.1
+1426296,2024-05-09,Punjab Kings,JM Sharma,V Kaverappa,17.1
+1426296,2024-05-09,Royal Challengers Bengaluru,Yash Dayal,RM Patidar,0.1
+1426297,2024-05-10,Chennai Super Kings,AM Rahane,TU Deshpande,0.1
+1426297,2024-05-10,Gujarat Titans,S Sandeep Warrier,B Sai Sudharsan,0.1
+1426298,2024-05-11,Kolkata Knight Riders,VG Arora,N Rana,0.1
+1426298,2024-05-11,Mumbai Indians,RG Sharma,N Thushara,0.1
+1426299,2024-05-12,Rajasthan Royals,N Burger,Dhruv Jurel,0.1
+1426299,2024-05-12,Chennai Super Kings,Sameer Rizvi,DJ Mitchell,15.6
+1426300,2024-05-12,Royal Challengers Bengaluru,Swapnil Singh,RM Patidar,18.1
+1426300,2024-05-12,Delhi Capitals,DA Warner,KK Ahmed,0.1
+1426302,2024-05-14,Lucknow Super Giants,A Badoni,Mohsin Khan,18.1
+1426302,2024-05-14,Delhi Capitals,I Sharma,Abishek Porel,0.1
+1426303,2024-05-15,Rajasthan Royals,D Ferreira,Dhruv Jurel,14.4
+1426303,2024-05-15,Punjab Kings,Ashutosh Sharma,Arshdeep Singh,15.5
+1426305,2024-05-17,Mumbai Indians,RG Sharma,N Thushara,0.1
+1426305,2024-05-17,Lucknow Super Giants,Naveen-ul-Haq,A Badoni,0.1
+1426306,2024-05-18,Royal Challengers Bengaluru,Swapnil Singh,RM Patidar,0.1
+1426306,2024-05-18,Chennai Super Kings,S Dube,M Theekshana,9.2
+1426307,2024-05-19,Sunrisers Hyderabad,TM Head,T Natarajan,0.1
+1426307,2024-05-19,Punjab Kings,Arshdeep Singh,Ashutosh Sharma,0.1
+1426309,2024-05-21,Sunrisers Hyderabad,Sanvir Singh,Abhishek Sharma,13.3
+1426310,2024-05-22,Royal Challengers Bengaluru,Swapnil Singh,RM Patidar,18.3
+1426310,2024-05-22,Rajasthan Royals,SO Hetmyer,YS Chahal,13.2
+1426311,2024-05-24,Sunrisers Hyderabad,Shahbaz Ahmed,TM Head,14.1
+1426311,2024-05-24,Rajasthan Royals,SO Hetmyer,YS Chahal,11.5
+1426312,2024-05-26,Sunrisers Hyderabad,Abdul Samad,TM Head,11.6
+1473438,2025-03-22,Royal Challengers Bengaluru,D Padikkal,Suyash Sharma,16.1
+1473438,2025-03-22,Kolkata Knight Riders,VG Arora,A Raghuvanshi,0.1
+1473439,2025-03-23,Rajasthan Royals,SV Samson,Fazalhaq Farooqi,0.1
+1473439,2025-03-23,Sunrisers Hyderabad,A Zampa,TM Head,7.1
+1473440,2025-03-23,Chennai Super Kings,RA Tripathi,KK Ahmed,19.1
+1473440,2025-03-23,Mumbai Indians,V Puthur,RG Sharma,0.1
+1473441,2025-03-24,Lucknow Super Giants,M Siddharth,MR Marsh,0.1
+1473441,2025-03-24,Delhi Capitals,Ashutosh Sharma,Mukesh Kumar,6.5
+1473442,2025-03-25,Gujarat Titans,SE Rutherford,M Prasidh Krishna,12.4
+1473442,2025-03-25,Punjab Kings,Vijaykumar Vyshak,Priyansh Arya,13.1
+1473443,2025-03-26,Rajasthan Royals,SB Dubey,SV Samson,11.1
+1473443,2025-03-26,Kolkata Knight Riders,A Raghuvanshi,CV Varun,16.1
+1473444,2025-03-27,Lucknow Super Giants,MR Marsh,DS Rathi,0.1
+1473444,2025-03-27,Sunrisers Hyderabad,A Zampa,TM Head,6.1
+1473445,2025-03-28,Royal Challengers Bengaluru,Suyash Sharma,D Padikkal,6.1
+1473445,2025-03-28,Chennai Super Kings,S Dube,M Pathirana,8.6
+1473446,2025-03-29,Gujarat Titans,I Sharma,SE Rutherford,0.1
+1473446,2025-03-29,Mumbai Indians,R Minz,PVSN Raju,11.4
+1473447,2025-03-30,Sunrisers Hyderabad,PWA Mulder,TM Head,14.1
+1473448,2025-03-30,Rajasthan Royals,K Kartikeya,SV Samson,18.4
+1473448,2025-03-30,Chennai Super Kings,S Dube,M Pathirana,7.2
+1473449,2025-03-31,Kolkata Knight Riders,MK Pandey,A Raghuvanshi,7.1
+1473449,2025-03-31,Mumbai Indians,RG Sharma,V Puthur,15.1
+1473450,2025-04-01,Punjab Kings,N Wadhera,YS Chahal,17.1
+1473450,2025-04-01,Lucknow Super Giants,M Siddharth,DA Miller,6.1
+1473451,2025-04-02,Royal Challengers Bengaluru,Rasikh Salam,D Padikkal,4.1
+1473451,2025-04-02,Gujarat Titans,SE Rutherford,I Sharma,12.4
+1473452,2025-04-03,Kolkata Knight Riders,VG Arora,A Raghuvanshi,0.1
+1473452,2025-04-03,Sunrisers Hyderabad,TM Head,Zeeshan Ansari,0.1
+1473453,2025-04-04,Lucknow Super Giants,Ravi Bishnoi,MR Marsh,0.1
+1473453,2025-04-04,Mumbai Indians,Tilak Varma,V Puthur,8.2
+1473454,2025-04-05,Delhi Capitals,Mukesh Kumar,Ashutosh Sharma,0.1
+1473454,2025-04-05,Chennai Super Kings,S Dube,M Pathirana,5.4
+1473455,2025-04-05,Punjab Kings,Priyansh Arya,YS Chahal,18.1
+1473455,2025-04-05,Rajasthan Royals,K Kartikeya,N Rana,3.4
+1473456,2025-04-08,Kolkata Knight Riders,A Raghuvanshi,CV Varun,14.1
+1473456,2025-04-08,Lucknow Super Giants,Ravi Bishnoi,MR Marsh,0.1
+1473457,2025-04-06,Sunrisers Hyderabad,Simarjeet Singh,TM Head,18.5
+1473457,2025-04-06,Gujarat Titans,SE Rutherford,I Sharma,13.2
+1473458,2025-04-07,Mumbai Indians,RG Sharma,V Puthur,15.1
+1473458,2025-04-07,Royal Challengers Bengaluru,Suyash Sharma,D Padikkal,6.1
+1473459,2025-04-08,Punjab Kings,Yash Thakur,Priyansh Arya,0.1
+1473459,2025-04-08,Chennai Super Kings,S Dube,M Pathirana,7.3
+1473460,2025-04-09,Rajasthan Royals,SB Dubey,Fazalhaq Farooqi,13.1
+1473460,2025-04-09,Gujarat Titans,K Khejroliya,SE Rutherford,0.1
+1473461,2025-04-10,Delhi Capitals,Abishek Porel,Mukesh Kumar,2.1
+1473461,2025-04-10,Royal Challengers Bengaluru,Suyash Sharma,D Padikkal,6.1
+1473462,2025-04-11,Chennai Super Kings,DJ Hooda,RA Tripathi,13.4
+1473463,2025-04-12,Gujarat Titans,M Prasidh Krishna,SE Rutherford,0.1
+1473463,2025-04-12,Lucknow Super Giants,A Badoni,DS Rathi,11.2
+1473464,2025-04-12,Sunrisers Hyderabad,A Manohar,E Malinga,18.1
+1473464,2025-04-12,Punjab Kings,Yash Thakur,Priyansh Arya,3.1
+1473465,2025-04-13,Royal Challengers Bengaluru,D Padikkal,Suyash Sharma,17.1
+1473465,2025-04-13,Rajasthan Royals,K Kartikeya,N Rana,5.1
+1473466,2025-04-13,Delhi Capitals,KK Nair,Mukesh Kumar,0.1
+1473466,2025-04-13,Mumbai Indians,KV Sharma,RG Sharma,6.1
+1473467,2025-04-14,Lucknow Super Giants,Ravi Bishnoi,MR Marsh,0.1
+1473467,2025-04-14,Chennai Super Kings,S Dube,M Pathirana,8.6
+1473468,2025-04-15,Punjab Kings,Suryansh Shedge,P Simran Singh,8.5
+1473468,2025-04-15,Kolkata Knight Riders,A Raghuvanshi,CV Varun,14.1
+1473469,2025-04-16,Delhi Capitals,Mukesh Kumar,Abishek Porel,0.1
+1473469,2025-04-16,Rajasthan Royals,SB Dubey,M Theekshana,0.1
+1473470,2025-04-17,Mumbai Indians,RG Sharma,KV Sharma,0.1
+1473470,2025-04-17,Sunrisers Hyderabad,RD Chahar,Mohammed Shami,7.1
+1473471,2025-04-18,Royal Challengers Bengaluru,MS Bhandage,LS Livingstone,7.5
+1473471,2025-04-18,Punjab Kings,P Simran Singh,YS Chahal,0.1
+1473472,2025-04-19,Delhi Capitals,D Ferreira,Abishek Porel,17.3
+1473472,2025-04-19,Gujarat Titans,SE Rutherford,I Sharma,19.1
+1473473,2025-04-19,Lucknow Super Giants,A Badoni,MR Marsh,7.5
+1473473,2025-04-19,Rajasthan Royals,V Suryavanshi,Sandeep Sharma,0.1
+1473474,2025-04-20,Royal Challengers Bengaluru,D Padikkal,Suyash Sharma,16.1
+1473474,2025-04-20,Punjab Kings,Harpreet Brar,P Simran Singh,0.1
+1473475,2025-04-20,Chennai Super Kings,R Ashwin,S Dube,0.1
+1473475,2025-04-20,Mumbai Indians,RG Sharma,Ashwani Kumar,0.1
+1473476,2025-04-21,Gujarat Titans,I Sharma,SE Rutherford,0.1
+1473476,2025-04-21,Kolkata Knight Riders,A Raghuvanshi,VG Arora,16.4
+1473477,2025-04-22,Lucknow Super Giants,A Badoni,MR Marsh,14.1
+1473478,2025-04-23,Sunrisers Hyderabad,A Manohar,TM Head,8.4
+1473478,2025-04-23,Mumbai Indians,RG Sharma,V Puthur,16.1
+1473479,2025-04-24,Rajasthan Royals,V Suryavanshi,Sandeep Sharma,0.1
+1473479,2025-04-24,Royal Challengers Bengaluru,Suyash Sharma,D Padikkal,6.1
+1473480,2025-04-25,Chennai Super Kings,A Kamboj,S Dube,16.4
+1473480,2025-04-25,Sunrisers Hyderabad,TM Head,Zeeshan Ansari,0.1
+1473481,2025-04-26,Kolkata Knight Riders,A Raghuvanshi,C Sakariya,19.1
+1473481,2025-04-26,Punjab Kings,Harpreet Brar,P Simran Singh,0.1
+1473482,2025-04-27,Mumbai Indians,JJ Bumrah,RG Sharma,0.1
+1473482,2025-04-27,Lucknow Super Giants,DA Miller,N Pooran,11.3
+1473483,2025-04-27,Royal Challengers Bengaluru,D Padikkal,Suyash Sharma,15.1
+1473483,2025-04-27,Delhi Capitals,Ashutosh Sharma,F du Plessis,16.3
+1473484,2025-04-28,Gujarat Titans,I Sharma,Shubman Gill,0.1
+1473485,2025-04-29,Kolkata Knight Riders,VG Arora,VR Iyer,0.1
+1473485,2025-04-29,Delhi Capitals,Ashutosh Sharma,Mukesh Kumar,15.3
+1473486,2025-04-30,Chennai Super Kings,A Kamboj,A Mhatre,18.5
+1473486,2025-04-30,Punjab Kings,P Simran Singh,YS Chahal,0.1
+1473487,2025-05-01,Rajasthan Royals,SB Dubey,Fazalhaq Farooqi,4.6
+1473487,2025-05-01,Mumbai Indians,KV Sharma,RG Sharma,7.2
+1473488,2025-05-02,Sunrisers Hyderabad,TM Head,Mohammed Shami,17.1
+1473488,2025-05-02,Gujarat Titans,I Sharma,B Sai Sudharsan,0.1
+1473489,2025-05-03,Royal Challengers Bengaluru,Suyash Sharma,D Padikkal,6.1
+1473489,2025-05-03,Chennai Super Kings,S Dube,M Pathirana,19.4
+1473490,2025-05-04,Kolkata Knight Riders,Harshit Rana,A Raghuvanshi,0.1
+1473490,2025-05-04,Rajasthan Royals,SB Dubey,Akash Madhwal,15.6
+1473491,2025-05-04,Lucknow Super Giants,MR Marsh,Akash Singh,0.1
+1473491,2025-05-04,Punjab Kings,Vijaykumar Vyshak,P Simran Singh,4.1
+1473492,2025-05-05,Delhi Capitals,Ashutosh Sharma,Abishek Porel,12.2
+1473492,2025-05-05,Sunrisers Hyderabad,TM Head,JD Unadkat,14.1
+1473493,2025-05-06,Mumbai Indians,KV Sharma,RG Sharma,19.5
+1473493,2025-05-06,Gujarat Titans,SE Rutherford,M Prasidh Krishna,11.4
+1473494,2025-05-07,Kolkata Knight Riders,Harshit Rana,MK Pandey,0.1
+1473494,2025-05-07,Chennai Super Kings,S Dube,M Pathirana,5.3
+1473497,2025-05-18,Punjab Kings,Harpreet Brar,SS Iyer,0.1
+1473497,2025-05-18,Rajasthan Royals,SB Dubey,Fazalhaq Farooqi,17.3
+1473498,2025-05-18,Gujarat Titans,B Sai Sudharsan,M Prasidh Krishna,0.1
+1473498,2025-05-18,Delhi Capitals,PVD Chameera,Ashutosh Sharma,0.1
+1473499,2025-05-19,Sunrisers Hyderabad,Atharva Taide,Zeeshan Ansari,16.1
+1473499,2025-05-19,Lucknow Super Giants,SN Thakur,MR Marsh,19.3
+1473500,2025-05-20,Chennai Super Kings,M Pathirana,S Dube,0.1
+1473501,2025-05-21,Delhi Capitals,KL Rahul,Mukesh Kumar,0.1
+1473501,2025-05-21,Mumbai Indians,KV Sharma,RG Sharma,7.1
+1473502,2025-05-22,Gujarat Titans,B Sai Sudharsan,M Prasidh Krishna,0.1
+1473502,2025-05-22,Lucknow Super Giants,Akash Singh,MR Marsh,0.1
+1473503,2025-05-23,Sunrisers Hyderabad,Harsh Dubey,TM Head,0.1
+1473503,2025-05-23,Royal Challengers Bengaluru,RM Patidar,Suyash Sharma,10.5
+1473504,2025-05-25,Chennai Super Kings,M Pathirana,DP Conway,0.1
+1473504,2025-05-25,Gujarat Titans,B Sai Sudharsan,M Prasidh Krishna,0.1
+1473505,2025-05-25,Kolkata Knight Riders,A Raghuvanshi,CV Varun,5.4
+1473505,2025-05-25,Sunrisers Hyderabad,Harsh Dubey,TM Head,6.6
+1473506,2025-05-26,Punjab Kings,P Simran Singh,Vijaykumar Vyshak,0.1
+1473506,2025-05-26,Mumbai Indians,Ashwani Kumar,RG Sharma,3.1
+1473507,2025-05-27,Lucknow Super Giants,Akash Singh,MR Marsh,0.1
+1473507,2025-05-27,Royal Challengers Bengaluru,RM Patidar,Suyash Sharma,5.5
+1473508,2025-05-29,Punjab Kings,Musheer Khan,P Simran Singh,8.3
+1473508,2025-05-29,Royal Challengers Bengaluru,MA Agarwal,Suyash Sharma,3.3
+1473509,2025-05-30,Gujarat Titans,SE Rutherford,Mohammed Siraj,18.5
+1473509,2025-05-30,Mumbai Indians,Ashwani Kumar,RG Sharma,10.1
+1473510,2025-06-01,Punjab Kings,P Simran Singh,YS Chahal,17.1
+1473510,2025-06-01,Mumbai Indians,Ashwani Kumar,RG Sharma,0.1
+1473511,2025-06-03,Punjab Kings,P Simran Singh,YS Chahal,0.1
+1473511,2025-06-03,Royal Challengers Bengaluru,Suyash Sharma,MA Agarwal,6.1
+1485779,2025-05-24,Delhi Capitals,KL Rahul,Mukesh Kumar,17.1
+1485779,2025-05-24,Punjab Kings,P Dubey,P Simran Singh,0.1
