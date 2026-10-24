@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-
+import plotly.express as px
 
 # -----------------------------
 # Page Configuration
@@ -12,6 +12,118 @@ st.set_page_config(
     page_icon="🏏",
     layout="wide"
 )
+st.markdown("""
+<style>
+/* Main dashboard background */
+.stApp {
+    background: linear-gradient(135deg, #0B1220 0%, #101B2D 100%);
+    color: #F3F6FC;
+}
+
+/* Main content spacing */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1450px;
+}
+
+/* Dashboard headings */
+h1, h2, h3 {
+    color: #F3F6FC !important;
+    font-weight: 700 !important;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
+
+h2 {
+    border-bottom: 1px solid #26364D;
+    padding-bottom: 0.5rem;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background: #141F32;
+    border: 1px solid #26364D;
+    border-radius: 14px;
+    padding: 20px 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Metric labels */
+div[data-testid="stMetricLabel"] {
+    color: #A8B7CC !important;
+    font-size: 0.9rem;
+}
+
+/* Metric values */
+div[data-testid="stMetricValue"] {
+    color: #39E75F !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Metric card hover */
+div[data-testid="stMetric"]:hover {
+    border-color: #39E75F;
+    transform: translateY(-2px);
+}
+
+/* Charts and data containers */
+div[data-testid="stPlotlyChart"],
+div[data-testid="stDataFrame"] {
+    background: #141F32;
+    border: 1px solid #26364D;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+/* Select boxes and dropdowns */
+div[data-baseweb="select"] > div {
+    background-color: #141F32;
+    border-color: #34465F;
+    border-radius: 10px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #0D1728;
+    border-right: 1px solid #26364D;
+}
+
+/* Dividers */
+hr {
+    border-color: #26364D;
+}
+
+/* Captions */
+.stCaption {
+    color: #9BAEC5;
+}
+
+/* Buttons */
+.stButton > button {
+    background: #39E75F;
+    color: #0B1220;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.stButton > button:hover {
+    background: #28C94F;
+    color: #0B1220;
+    border: none;
+}
+
+/* Remove excess top decoration */
+header[data-testid="stHeader"] {
+    background: rgba(11, 18, 32, 0.85);
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 # -----------------------------
@@ -278,18 +390,10 @@ top_impact_player = (
     impact_players["player_in"].value_counts().idxmax()
 )
 
-# Highest scoring venue
+# Highest-scoring venue
 top_venue = venue_stats["runs_per_delivery"].idxmax()
 
-st.info(
-    f"🔥 Most frequently used Impact Player: **{top_impact_player}**"
-)
-
-st.info(
-    f"🏟️ Highest-scoring venue: **{top_venue}**"
-)
-
-# Display insights
+# Display insights only once
 st.info(
     f"🔥 Most frequently used Impact Player: **{top_impact_player}**"
 )
@@ -313,11 +417,38 @@ impact_usage = (
     .sort_values()
 )
 
-st.bar_chart(
-    impact_usage,
-    horizontal=True
+fig = px.bar(
+    x=impact_usage.values,
+    y=impact_usage.index,
+    orientation="h",
+    labels={
+        "x": "Number of Appearances",
+        "y": "Impact Player"
+    },
+    color_discrete_sequence=["#39E75F"]
 )
 
+fig.update_layout(
+    template="plotly_dark",
+    paper_bgcolor="#141F32",
+    plot_bgcolor="#141F32",
+    font=dict(
+        color="#F3F6FC",
+        family="Arial"
+    ),
+    xaxis=dict(
+        title="Number of Appearances",
+        showgrid=True,
+        gridcolor="#26364D"
+    ),
+    yaxis=dict(
+        title="Impact Player",
+        showgrid=False
+    ),
+    margin=dict(l=20, r=20, t=20, b=20)
+)
+
+st.plotly_chart(fig, use_container_width=True)
 
 # -----------------------------
 # Impact Player vs Normal Batting
@@ -430,7 +561,6 @@ player_comparison = impact_summary.join(
     how="left"
 )
 
-
 # -----------------------------
 # Calculate Performance Difference
 # -----------------------------
@@ -453,44 +583,116 @@ comparison_chart = (
 # Impact vs Normal Chart
 # -----------------------------
 
+# -----------------------------
+
+# Impact Player vs Normal Batting Performance
+
+# -----------------------------
+
 st.subheader("📊 Impact Player vs Normal Batting Performance")
 
-st.bar_chart(
-    comparison_chart,
-    horizontal=True
+batting_chart = (
+player_comparison[
+["impact_avg_runs", "normal_avg_runs"]
+]
+.rename(columns={
+"impact_avg_runs": "Impact Player Average",
+"normal_avg_runs": "Normal Average"
+})
+.sort_values("Impact Player Average")
 )
+
+fig = px.bar(
+batting_chart,
+x=["Impact Player Average", "Normal Average"],
+y=batting_chart.index,
+barmode="group",
+orientation="h",
+color_discrete_sequence=["#39E75F", "#18C8C8"],
+labels={
+"value": "Average Runs",
+"variable": "Performance Type",
+"index": "Player"
+}
+)
+
+fig.update_layout(
+template="plotly_dark",
+paper_bgcolor="#141F32",
+plot_bgcolor="#141F32",
+font=dict(
+color="#F3F6FC",
+family="Arial"
+),
+legend_title_text="Performance Type",
+xaxis=dict(
+title="Average Runs",
+showgrid=True,
+gridcolor="#26364D",
+zeroline=False
+),
+yaxis=dict(
+title="Player",
+showgrid=False
+),
+margin=dict(l=20, r=20, t=25, b=20)
+)
+
+st.plotly_chart(fig, use_container_width=True)
+
+# -----------------------------
+
+# Player Performance Details
+
+# -----------------------------
+
 st.subheader("📋 Player Performance Details")
 
 st.dataframe(
-    player_comparison[
-        [
-            "impact_appearances",
-            "impact_avg_runs",
-            "impact_sr",
-            "normal_appearances",
-            "normal_avg_runs",
-            "normal_sr",
-            "run_difference"
-        ]
-    ].round(2),
-    use_container_width=True
+player_comparison[
+[
+"impact_appearances",
+"impact_avg_runs",
+"impact_sr",
+"normal_appearances",
+"normal_avg_runs",
+"normal_sr",
+"run_difference"
+]
+].round(2),
+use_container_width=True
 )
+
+# -----------------------------
+
+# Impact Player Contribution Type
+
+# -----------------------------
+
 st.subheader("🎯 Impact Player Contribution Type")
 
 contribution_counts = (
-    impact_players["contribution_type"]
-    .value_counts()
+impact_players["contribution_type"]
+.value_counts()
+.sort_values(ascending=True)
 )
 
-st.bar_chart(
-    contribution_counts
-)
+fig = px.bar
+x=contribution_counts.values,
+y=contribution_counts.index,
+orientation="h",
+labels={
+"x": "Number of Impact Players",
+"y": "Contribution Type"
+},
+
+
+
 # -----------------------------
 # Impact Player vs Normal Bowling
 # -----------------------------
 
 st.subheader("🏏 Impact Player vs Normal Bowling Performance")
-
 # Impact bowling summary
 impact_bowling_summary = (
     impact_bowling_stats[
@@ -571,23 +773,31 @@ bowling_comparison["economy_difference"] = (
     - bowling_comparison["normal_economy"]
 )
 
-st.dataframe(
-    bowling_comparison[
-        [
-            "impact_appearances",
-            "impact_wickets",
-            "impact_economy",
-            "normal_appearances",
-            "normal_wickets",
-            "normal_economy",
-            "economy_difference"
-        ]
-    ].round(2),
-    use_container_width=True
-)
+if bowling_comparison.empty:
+    st.info(
+        "Not enough Impact Player bowling appearances "
+        "to compare bowlers reliably for this season. "
+        "Try selecting 'All' to view the overall analysis."
+    )
+else:
+    st.dataframe(
+        bowling_comparison[
+            [
+                "impact_appearances",
+                "impact_wickets",
+                "impact_economy",
+                "normal_appearances",
+                "normal_wickets",
+                "normal_economy",
+                "economy_difference"
+            ]
+        ].round(2),
+        use_container_width=True
+    )
 # -----------------------------
 # Venue Scoring Analysis
 # -----------------------------
+
 
 st.subheader("🏟️ Highest Scoring IPL Venues")
 
@@ -597,10 +807,40 @@ venue_chart = (
     .sort_values()
 )
 
-st.bar_chart(
-    venue_chart,
-    horizontal=True
+fig = px.bar(
+    x=venue_chart.values,
+    y=venue_chart.index,
+    orientation="h",
+    labels={
+        "x": "Runs per Delivery",
+        "y": "Stadium"
+    },
+    color_discrete_sequence=["#39E75F"],
+
 )
+
+fig.update_layout(
+    template="plotly_dark",
+    paper_bgcolor="#141F32",
+    plot_bgcolor="#141F32",
+    font=dict(
+        color="#F3F6FC",
+        family="Arial"
+    ),
+    xaxis=dict(
+        title="Runs per Delivery",
+        showgrid=True,
+        gridcolor="#26364D"
+    ),
+    yaxis=dict(
+        title="Stadium",
+        showgrid=False
+    ),
+    margin=dict(l=20, r=20, t=20, b=20)
+)
+
+st.plotly_chart(fig, use_container_width=True)
+
 # -----------------------------
 # Pitch Type Analysis
 # -----------------------------
@@ -625,15 +865,39 @@ pitch_stats = pitch_stats.sort_values(
 # -----------------------------
 # Pitch Type Scoring
 # -----------------------------
-
 st.subheader("🏏 Scoring by Pitch Type")
 
 pitch_chart = (
-    pitch_stats["runs_per_delivery"]
-    .sort_values()
+pitch_stats["runs_per_delivery"]
+.sort_values()
 )
 
-st.bar_chart(
-    pitch_chart,
-    horizontal=True
+fig = px.bar(
+x=pitch_chart.values,
+y=pitch_chart.index,
+orientation="h",
+labels={
+"x": "Runs per Delivery",
+"y": "Pitch Type"
+},
+color_discrete_sequence=["#18C8C8"]
 )
+
+fig.update_layout(
+template="plotly_dark",
+paper_bgcolor="#141F32",
+plot_bgcolor="#141F32",
+font=dict(color="#F3F6FC", family="Arial"),
+xaxis=dict(
+title="Runs per Delivery",
+showgrid=True,
+gridcolor="#26364D"
+),
+yaxis=dict(
+title="Pitch Type",
+showgrid=False
+),
+margin=dict(l=20, r=20, t=20, b=20)
+)
+
+st.plotly_chart(fig, use_container_width=True)
