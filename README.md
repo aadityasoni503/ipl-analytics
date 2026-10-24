@@ -146,7 +146,15 @@ Impact Player records were derived from IPL match JSON files provided by Cricshe
 
 ## 📸 Dashboard Preview
 
-Add screenshots of your deployed dashboard to the `images/` directory and display them here.
+## 📸 Dashboard Preview
+
+### Impact Player vs Normal Batting Performance
+
+![Impact Player vs Normal Batting Performance](images/batting-comparison.png)
+
+### Most Frequently Used Impact Players
+
+![Most Frequently Used Impact Players](images/impact-player-usage.png)
 
 For example, after adding a screenshot named `dashboard-overview.png`:
 
